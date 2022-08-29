@@ -5,9 +5,10 @@ const Menu = () =>{
     return(
         <nav>
             <ul>
-                <li> <Link to="/">Principal</Link> </li>
-                <li> <Link to="/produtos">Produtos</Link> </li>
-                <li> <Link to="/sobre">Sobre</Link> </li>
+                <li> <Link to="/">Home</Link> </li>
+                <li> <Link to="/produtos">Perfil</Link> </li>
+                <li> <Link to="/recomendacoes">Recomendações</Link> </li>
+                <li> <Link to="/informacoes">Informações</Link> </li>
             </ul>
         </nav>
     )

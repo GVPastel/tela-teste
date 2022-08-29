@@ -1,13 +1,13 @@
 import React from "react";
 import Menu from './Menu'
 
-const Sobre = () => {
+const Home = () => {
     return(
         <div>
-            <h2>Sobre</h2>
+            <h2>Home</h2>
             <Menu />
         </div>
     )
 }
 
-export default Sobre
+export default Home

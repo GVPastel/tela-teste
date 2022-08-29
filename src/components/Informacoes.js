@@ -1,13 +1,13 @@
 import React from "react";
 import Menu from './Menu'
 
-const Principal = () => {
+const Informações = () => {
     return(
         <div>
-            <h2>Principal</h2>
+            <h2>Informações</h2>
             <Menu />
         </div>
     )
 }
 
-export default Principal
+export default Informações
