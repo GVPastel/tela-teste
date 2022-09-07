@@ -1,13 +1,13 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from './components/Home'
-import Perfil from './components/Perfil'
+import Home from "./components/Home";
+import Perfil from "./components/Perfil";
 import Contato from "./components/Contato";
-import Login from "./components/Login";
-import Cadastro from "./components/Cadastro";
+import Login from "./components/LoginCadastro/Login";
+import Cadastro from "./components/LoginCadastro/Cadastro";
 
-const App = () =>{
-  return(
+const App = () => {
+  return (
     <BrowserRouter>
       <Routes>
         <Route element={<Home />} path={"/"} exact />
@@ -17,6 +17,6 @@ const App = () =>{
         <Route element={<Cadastro />} path={"/cadastro"} />
       </Routes>
     </BrowserRouter>
-  )
-}
-export default App
+  );
+};
+export default App;
