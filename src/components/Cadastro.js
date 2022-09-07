@@ -12,6 +12,8 @@ const Cadastro = () => {
         <li> <input className="inputCastroSenha" placeholder="Senha" /> </li>
         <h3>Confirme sua senha</h3>
         <li> <input className="inputCadastroConfirma" placeholder="Confirma Senha" /> </li>
+        <h3>Telefone para contato</h3>
+        <li> <input className="inputTelefone" placeholder="Telefone" /> </li>
         <br></br>
         <a href="/login"> <button>Cadastrar</button> </a>
         <br></br>
