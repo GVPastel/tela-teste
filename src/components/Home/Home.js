@@ -3,13 +3,14 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import "./stylesHome.css"
 import Header from "../Header";
+import Footer from "../Footer";
 
 const Home = () => {
     return(
         <div className="principal">
             <Header />
             <Carousel autoPlay={true} interval={4000} infiniteLoop={true} className="carrossel" showArrows={false} 
-            centerSlidePercentage={true}>
+             dynamicHeight={true}>
                 <div className="img1">
                     <img className="imagem1" src={require("./imgs/img-1.png")} alt="imagem 1 carrossel" />
                     <br></br>
@@ -21,6 +22,7 @@ const Home = () => {
                     <img className="imagem2" src={require("./imgs/img-4.png")} alt="imagem 4 carrossel" />
                 </div>
             </Carousel>
+            <Footer/>
         </div>
     )
 }

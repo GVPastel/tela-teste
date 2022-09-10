@@ -42,11 +42,16 @@ header{
 }
 
 .img1{
-    max-width: 635px;
+    max-width: 400px;
     display: flex;
 }
 
 .img2{
-    max-width: 635px;
+    max-width: 400px;
     display: flex;
+}
+
+.carrossel{
+    display: flex;
+    justify-content: space-between;
 }
