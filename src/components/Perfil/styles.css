@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+
+html {
+  height: auto !important;
+  min-height: initial;
+}
+.main-container {
+  height: 84.7%;
+  background-color: #b9e2fa;
+  display: flex;
+  flex-direction: row;
+  column-gap: 2%;
+}
+.perfil-container {
+  background-color: #f4acbc;
+  width: 86.2%;
+  height: 92%;
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 40px;
+}
+.react-calendar {
+  background: #f4acbc;
+  border: 0;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.react-calendar__month-view__days__day--weekend {
+  background-color: #fcf9d4 !important;
+}
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus,
+.react-calendar__tile--active {
+  background-color: #b4818c !important;
+}
+.react-calendar__tile {
+  background-color: #fff;
+  flex: 0 0 12% !important;
+  line-height: 60px;
+  font-size: 1.5rem;
+}
+.react-calendar__month-view__weekdays {
+  display: none !important;
+}
+.react-calendar__month-view__days {
+  gap: 30px;
+}
+
+.react-calendar__navigation__label__labelText {
+  color: #fff;
+  font-family: "Berkshire";
+  font-size: 3rem;
+}
+.react-calendar__navigation__arrow {
+  display: flex;
+  color: #fff;
+  font-size: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+.perfil-nav-bar {
+  width: 10%;
+  background-color: #88cedb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.perfil-img {
+  width: 70%;
+  margin-top: 30px;
+  border-radius: 1000px;
+  border: 10px solid white;
+}
+.react-calendar__viewContainer {
+  height: 87%;
+}
+.react-calendar__navigation {
+  height: 60px;
+}
+.react-calendar__month-view,
+.react-calendar__month-view :first-child {
+  height: 100%;
+}
+.react-calendar__month-view :first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.perfil-nav-options {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 100%;
+  align-items: center;
+}
+.perfil-nav-option {
+  background-color: #f4acbc;
+  color: #fff;
+  width: 70%;
+  text-align: center;
+  float: right;
+}
+.perfil-nav-option p {
+  margin: 10px 0;
+}
+.perfil-nav-option__selected {
+  width: 140%;
+}
+.info-container {
+  width: 90%;
+  height: min-content;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.info-text {
+  border: 3px solid #b9e2fa;
+  border-radius: 15px;
+  padding-right: 4px;
+}
+.info-text-title,
+.info-text-content {
+  font-size: 1.2rem;
+  color: #fff;
+}
+.info-text-content {
+  padding-left: 10px;
+}
