@@ -64,3 +64,39 @@ header {
   justify-items: center;
   align-items: center;
 }
+
+.footer1{
+  background-color: #f4acbc;
+  display: flex;
+}
+
+.flex{
+  background-color: #f4acbc;
+}
+
+.ItemFooter, .linkFooter {
+  text-decoration: none;
+  color: #b9e2fa;
+  font-size: 20px;
+  font-family: "Poppins";
+  display: flex;
+}
+
+.textoContato1{
+  color: #b9e2fa;
+  font-size: 20px;
+  font-family: "Poppins";
+  padding: 50px;
+}
+.ListFooter{
+  padding-right: 10px;
+}
+
+.imgContato{
+  max-width: 1000px;
+}
+
+.divContato{
+  display: flex;
+  justify-content: center;
+}
