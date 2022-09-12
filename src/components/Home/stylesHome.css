@@ -41,25 +41,26 @@ header {
   border-radius: 5px;
 }
 
-.img1 {
-  max-width: 400px;
-  display: flex;
-  justify-content: space-between;
+.img {
+  margin-right: 15%;
 }
 
-.img2 {
-  max-width: 400px;
+.container-carrosel {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  border: 2px solid black;
 }
 
-.carrossel {
+.flex {
   display: flex;
-  justify-content: space-between;
+  width: 60%;
+  flex-direction: column;
 }
-.imagem1,
-.imagem2,
-.imagem3,
-.imagem4 {
-  width: 45% !important;
+
+.blocoImg {
+  display: flex;
+  max-width: 40%;
+  margin-left: 7%;
+  justify-items: center;
+  align-items: center;
 }
